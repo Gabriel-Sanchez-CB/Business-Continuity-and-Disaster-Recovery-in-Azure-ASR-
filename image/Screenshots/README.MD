@@ -1,1 +1,1 @@
-#
+# Screenshots Management

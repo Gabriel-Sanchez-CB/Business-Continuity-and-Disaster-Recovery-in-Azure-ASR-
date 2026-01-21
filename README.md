@@ -33,6 +33,14 @@ This option is used in on-premise environments, specifically when you have a loc
 # Which one did I choose?
 
 In my case, I chose option number 1, using a virtual machine created directly in Azure. On this VM, I enabled the Hyper-V feature to create a nested virtualized environment within the cloud, and inside that nested VM, I installed an IIS (Internet Information Services) server to simulate a web server. This allowed me to configure replication and redundancy for the service, ensuring high availability and resilience against potential failures, demonstrating how Azure Site Recovery can protect both cloud-based virtual infrastructure and the critical applications running on it.
+
 ![Group](image/Screenshots/IIS.png)
 
 # Advantages
+- Business Continuity: Ensures critical services remain operational during disasters.
+- Reduced Downtime: Minimizes service interruptions, protecting revenue and productivity.
+- Data Protection: Safeguards sensitive and essential business data through automated replication.
+- Rapid Recovery: Enables quick failover and failback processes, reducing recovery time (RTO).
+- Scalability: Easily adapts to growing infrastructure needs without major investments.
+- Cost Efficiency: Reduces the need for traditional, expensive disaster recovery infrastructure.
+- Testing and Validation: Allows periodic failover testing without impacting production systems.
